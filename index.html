@@ -2,26 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DJ Isidor - Tokyo Hip-Hop DJ & Beat Live Bookings</title>
-    <meta
-      name="description"
-      content="Book DJ Isidor for Tokyo old-school hip-hop nights, beat-live sets, DJ support slots, venues, tickets, and event bookings."
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>DJ Isidor — Tokyo Hip-Hop DJ &amp; Beat-Live Bookings</title>
+    <meta name="description" content="DJ Isidor — Tokyo-based hip-hop DJ and beat-live performer. Bookings for venues, residencies, support slots, and producer-MC nights.">
     <meta name="theme-color" content="#050505">
-    <meta property="og:title" content="DJ Isidor - Tokyo Hip-Hop DJ & Beat Live Bookings">
-    <meta
-      property="og:description"
-      content="Black-and-white Tokyo DJ site for tickets, venues, schedule, and booking inquiries."
-    >
+    <meta name="color-scheme" content="dark">
+    <meta property="og:title" content="DJ Isidor — Tokyo Hip-Hop DJ &amp; Beat-Live Bookings">
+    <meta property="og:description" content="Tokyo hip-hop DJ. Beat-live sets, vinyl-minded support slots, producer-MC nights. Booking inquiries open.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="assets/images/isidor-hero-wide.png">
-    <link rel="preload" as="image" href="assets/images/isidor-hero-wide.webp" type="image/webp">
-    <link rel="preload" as="image" href="assets/images/isidor-hero-mobile.webp" type="image/webp" media="(max-width: 640px)">
+    <meta property="og:image" content="./assets/images/isidor-hero-wide.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="./assets/images/dj-isidor-logo.webp" type="image/webp">
+    <link rel="preload" as="image" href="./assets/images/isidor-hero-wide.webp" type="image/webp">
+    <link rel="preload" as="image" href="./assets/images/isidor-hero-mobile.webp" type="image/webp" media="(max-width: 640px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800;900&family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800;900&family=Noto+Serif+JP:wght@500;700;900&family=Rubik+Spray+Paint&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -29,10 +26,8 @@
         "name": "DJ Isidor",
         "alternateName": "Isidor Music",
         "genre": ["Hip-Hop", "Boom Bap", "Instrumental Hip-Hop", "DJ"],
-        "homeLocation": {
-          "@type": "Place",
-          "name": "Tokyo, Japan"
-        },
+        "homeLocation": { "@type": "Place", "name": "Tokyo, Japan" },
+        "url": "https://isidor.music",
         "sameAs": [
           "https://www.instagram.com/isidor.music/",
           "https://soundcloud.com/isidormusic",
@@ -41,183 +36,223 @@
       }
     </script>
   </head>
-  <body>
+  <body data-theme="dark">
     <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="grain" aria-hidden="true"></div>
+    <div class="cursor" aria-hidden="true"><span></span></div>
 
     <header class="site-header" data-header>
       <a class="brand" href="#top" aria-label="DJ Isidor home">
-        <img class="brand-logo" src="assets/images/dj-isidor-logo.webp" alt="DJ Isidor">
+        <img class="brand-logo" src="./assets/images/dj-isidor-logo.webp" alt="DJ Isidor">
+        <span class="brand-meta" aria-hidden="true">
+          <span class="brand-dot"></span>
+          <span class="brand-status" data-availability>Booking · 2026</span>
+        </span>
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#tickets">Tickets</a>
-        <a href="#schedule">Schedule</a>
-        <a href="#booking">Booking</a>
-        <a href="#listen">Listen</a>
+        <a href="#shows"><em>01</em>Shows</a>
+        <a href="#sound"><em>02</em>Sound</a>
+        <a href="#offers"><em>03</em>Offers</a>
+        <a href="#press"><em>04</em>Press</a>
+        <a href="#faq"><em>05</em>FAQ</a>
       </nav>
-      <a class="header-cta" href="#book">Book now</a>
+      <a class="header-cta" href="#book" data-magnetic>
+        <span>Booking inquiry</span>
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="square"/></svg>
+      </a>
     </header>
+
+    <aside class="side-rail" aria-label="Social channels">
+      <a href="https://www.instagram.com/isidor.music/" target="_blank" rel="noreferrer">IG</a>
+      <a href="https://soundcloud.com/isidormusic" target="_blank" rel="noreferrer">SC</a>
+      <a href="https://ra.co/events/2424543" target="_blank" rel="noreferrer">RA</a>
+      <span class="rail-tick" aria-hidden="true"></span>
+    </aside>
 
     <main id="main">
       <section class="hero" id="top" aria-labelledby="hero-title">
         <picture>
-          <source srcset="assets/images/isidor-hero-mobile.webp" type="image/webp" media="(max-width: 640px)">
-          <source srcset="assets/images/isidor-hero-mobile.png" media="(max-width: 640px)">
-          <source srcset="assets/images/isidor-hero-wide.webp" type="image/webp">
-          <img class="hero-image" src="assets/images/isidor-hero-wide.png" alt="Black and white DJ Isidor artwork with sampler and gritty poster texture">
+          <source srcset="./assets/images/isidor-hero-mobile.webp" type="image/webp" media="(max-width: 640px)">
+          <source srcset="./assets/images/isidor-hero-mobile.png" media="(max-width: 640px)">
+          <source srcset="./assets/images/isidor-hero-wide.webp" type="image/webp">
+          <img class="hero-image" src="./assets/images/isidor-hero-wide.png" alt="Black and white DJ Isidor artwork with sampler and gritty poster texture">
         </picture>
         <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
 
         <div class="hero-inner">
-          <div class="hero-copy reveal">
-            <img class="hero-logo" src="assets/images/dj-isidor-logo.webp" alt="DJ Isidor">
-            <p class="stamp">Tokyo old-school hip-hop</p>
-            <h1 id="hero-title">DJ ISIDOR</h1>
-            <p class="hero-lede">
-              Beat-live sets and vinyl-minded DJ flow for Tokyo venues, DJs, promoters, and culture nights.
+          <div class="hero-meta reveal">
+            <span class="meta-dot"></span>
+            <span>Tokyo · 東京</span>
+            <span class="meta-sep">/</span>
+            <span>Hip-Hop DJ &amp; Beat Performer</span>
+            <span class="meta-sep">/</span>
+            <span data-clock>--:-- JST</span>
+          </div>
+
+          <div class="hero-copy">
+            <p class="stamp reveal" data-delay="0">Old-school hip-hop · 真夜中</p>
+            <h1 id="hero-title" class="reveal split" data-delay="1">
+              <span>DJ</span><span>ISIDOR</span>
+            </h1>
+            <p class="hero-jp reveal" data-delay="2"><span aria-hidden="true">ディージェイ・イシドール</span></p>
+            <p class="hero-lede reveal" data-delay="3">
+              Beat-live sets and vinyl-minded DJ flow for Tokyo venues, promoters, and culture nights. Boom-bap pressure with the room hot.
             </p>
-            <div class="hero-actions" aria-label="Main actions">
-              <a class="button button-primary" href="#tickets">Upcoming dates</a>
-              <a class="button button-secondary" href="#book">Book him</a>
+            <div class="hero-actions reveal" data-delay="4" aria-label="Main actions">
+              <a class="button button-primary" href="#sound" data-magnetic>
+                <span>Hear last set</span>
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3l8 5-8 5z" fill="currentColor"/></svg>
+              </a>
+              <a class="button button-ghost" href="#book" data-magnetic>
+                <span>Booking inquiry</span>
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="square"/></svg>
+              </a>
             </div>
           </div>
 
-          <aside class="next-show reveal" aria-label="Next show">
-            <p class="card-kicker">Next ticket drop</p>
-            <time>TBA</time>
-            <h2>Tokyo venue date loading</h2>
-            <p>Put the next confirmed ticket link here. Until then, send booking inquiries direct.</p>
+          <aside class="now-card reveal" data-delay="5" aria-label="Now / next">
+            <div class="now-card-top">
+              <div class="vinyl" aria-hidden="true">
+                <span class="vinyl-label"></span>
+              </div>
+              <div>
+                <p class="card-kicker">Now booking</p>
+                <p class="card-meta">Spring → Autumn 2026</p>
+              </div>
+            </div>
+            <div class="now-card-body">
+              <p class="card-kicker small">Next confirmed</p>
+              <p class="next-line">TBA — Tokyo · check direct</p>
+              <p class="next-sub">Promoters: hold a date before the calendar fills.</p>
+            </div>
             <div class="card-actions">
-              <a href="#tickets">See dates</a>
+              <a href="#shows">See dates</a>
               <a href="#book">Book a date</a>
             </div>
           </aside>
         </div>
+
+        <div class="hero-foot" aria-hidden="true">
+          <span>Scroll</span>
+          <span class="hero-foot-line"></span>
+          <span>01 / 09</span>
+        </div>
       </section>
 
       <section class="marquee" aria-label="Style tags">
-        <div>
-          <span>BOOM BAP</span>
-          <span>LIVE PADS</span>
-          <span>TOKYO VENUES</span>
-          <span>VINYL</span>
-          <span>MC READY</span>
-          <span>DIRTY DRUMS</span>
-          <span>BOOM BAP</span>
-          <span>LIVE PADS</span>
+        <div data-marquee>
+          <span>BOOM BAP</span><span aria-hidden="true">●</span>
+          <span>ビートライブ</span><span aria-hidden="true">●</span>
+          <span>TOKYO VENUES</span><span aria-hidden="true">●</span>
+          <span>VINYL DIGGING</span><span aria-hidden="true">●</span>
+          <span>真夜中</span><span aria-hidden="true">●</span>
+          <span>LIVE PADS</span><span aria-hidden="true">●</span>
+          <span>MC READY</span><span aria-hidden="true">●</span>
+          <span>DIRTY DRUMS</span><span aria-hidden="true">●</span>
+          <span>BOOM BAP</span><span aria-hidden="true">●</span>
+          <span>ビートライブ</span><span aria-hidden="true">●</span>
+          <span>TOKYO VENUES</span><span aria-hidden="true">●</span>
+          <span>VINYL DIGGING</span><span aria-hidden="true">●</span>
         </div>
       </section>
 
-      <section class="section ticket-section" id="tickets" aria-labelledby="tickets-title">
+      <section class="section manifesto-section" aria-labelledby="manifesto-title">
+        <div class="section-inner">
+          <p class="eyebrow reveal">Manifesto · 宣言</p>
+          <h2 id="manifesto-title" class="display reveal">
+            Hip-hop the way it lived in basements — <em>loud, dirty, alive.</em>
+          </h2>
+          <div class="manifesto-grid">
+            <p class="reveal">
+              Tokyo runs on detail. Sound systems are tight, crowds are sharp, and floors don't lie. I bring the records that move them — boom-bap, soul-cut breaks, rare grooves, beat-live moments from the sampler.
+            </p>
+            <p class="reveal">
+              No filler, no playlist autopilot. Every set is built for the room, the curfew, and the lineup before and after. Promoters get a clean tech rider, a clean offer, and a clean exit at last call.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shows-section" id="shows" aria-labelledby="shows-title">
         <div class="section-inner split">
           <div class="section-head reveal">
-            <p class="eyebrow">Tickets and dates</p>
-            <h2 id="tickets-title">Make the next show impossible to miss.</h2>
-            <p>Put confirmed dates first, keep recent proof underneath, and give venues a fast booking path.</p>
+            <p class="eyebrow">Shows · 出演</p>
+            <h2 id="shows-title">Make the next show impossible to miss.</h2>
+            <p>Confirmed dates first, recent proof underneath, and a fast booking path for venues and promoters.</p>
+            <ul class="venues" aria-label="Selected past venues and crews">
+              <li>Aoyama Hachi</li>
+              <li>88block</li>
+              <li>MINI LARIX</li>
+              <li>Solfa</li>
+              <li>Shibuya rooms</li>
+              <li>Roppongi nights</li>
+            </ul>
           </div>
 
-          <div class="ticket-board reveal" id="schedule">
-            <article class="ticket-row live">
+          <div class="ticket-board reveal">
+            <article class="ticket-row featured">
               <time>Next</time>
               <div>
-                <h3>Upcoming Tokyo show</h3>
-                <p>Add venue, date, lineup, and ticket link when confirmed.</p>
+                <span class="row-tag">Featured</span>
+                <h3>Tokyo show — date locking</h3>
+                <p>Add venue, lineup, and ticket link when confirmed. Drop early to cap the door.</p>
               </div>
-              <a href="#book">Request link</a>
+              <a href="#book" class="row-cta">Hold date</a>
             </article>
+
             <article class="ticket-row">
-              <time datetime="2026-04-30">Apr 30</time>
+              <time datetime="2026-04-30">04 / 30</time>
               <div>
-                <h3>BEAT LIVE at 88block</h3>
-                <p>Recent Tokyo proof / MINI LARIX vol.06</p>
+                <h3>BEAT LIVE @ 88block</h3>
+                <p>MINI LARIX vol.06 — recent Tokyo proof on Resident Advisor.</p>
               </div>
-              <a href="https://ra.co/events/2424543" target="_blank" rel="noreferrer">Proof</a>
+              <a href="https://ra.co/events/2424543" target="_blank" rel="noreferrer" class="row-cta ghost">RA proof ↗</a>
             </article>
+
             <article class="ticket-row">
-              <time>Book</time>
+              <time>Open</time>
               <div>
-                <h3>Available for Tokyo venues</h3>
-                <p>Hip-hop nights, DJ support, beat showcases, private events.</p>
+                <h3>Tokyo venues · residencies</h3>
+                <p>Hip-hop nights, DJ support, beat showcases, private events, after-hours rooms.</p>
               </div>
-              <a href="#book">Inquire</a>
+              <a href="#book" class="row-cta">Inquire</a>
+            </article>
+
+            <article class="ticket-row mini">
+              <time>Tour</time>
+              <div>
+                <h3>Travel from Tokyo</h3>
+                <p>Open to Osaka · Kyoto · Yokohama · regional flights with notice.</p>
+              </div>
+              <a href="#book" class="row-cta ghost">Brief →</a>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section booking-section" id="booking" aria-labelledby="booking-title">
-        <div class="section-inner">
-          <div class="section-head narrow reveal">
-            <p class="eyebrow">Book him for</p>
-            <h2 id="booking-title">Three clean offers promoters understand fast.</h2>
-          </div>
-
-          <div class="offer-grid">
-            <article class="offer-card reveal">
-              <span>01</span>
-              <h3>Beat-Live Set</h3>
-              <p>Sampler work, chops, drum breaks, DJ transitions, and visible performance energy.</p>
-              <strong>25-45 min</strong>
-            </article>
-            <article class="offer-card dark reveal">
-              <span>02</span>
-              <h3>DJ Support Slot</h3>
-              <p>Old-school hip-hop, lo-fi soul, vinyl texture, and warmup or late-night flow.</p>
-              <strong>45-90 min</strong>
-            </article>
-            <article class="offer-card reveal">
-              <span>03</span>
-              <h3>Producer + MC Night</h3>
-              <p>Original beats with guest rappers and a fuller hip-hop event shape.</p>
-              <strong>60-90 min</strong>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section vibe-section" aria-labelledby="vibe-title">
-        <div class="section-inner">
-          <div class="section-head narrow reveal">
-            <p class="eyebrow">The vibe</p>
-            <h2 id="vibe-title">Black-and-white, gritty, easy to sell.</h2>
-          </div>
-
-          <div class="vibe-grid">
-            <article class="vibe-card large reveal">
-              <img src="assets/images/party-vibe.webp" alt="Black and white sketch of a DJ crowd and turntables" loading="lazy">
-              <div>
-                <span>Venue energy</span>
-                <h3>Feels like a packed basement before it becomes one.</h3>
-              </div>
-            </article>
-            <article class="vibe-card reveal">
-              <img src="assets/images/vinyl-store.webp" alt="Black and white record store crates" loading="lazy">
-              <div>
-                <span>Sound source</span>
-                <h3>Record-digger taste, not playlist filler.</h3>
-              </div>
-            </article>
-            <article class="vibe-card reveal">
-              <img src="assets/images/vinyl-motion.webp" alt="Black and white close-up of a spinning vinyl record" loading="lazy">
-              <div>
-                <span>Identity</span>
-                <h3>Motion, scratches, and pressure in the room.</h3>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section listen-section" id="listen" aria-labelledby="listen-title">
+      <section class="section sound-section" id="sound" aria-labelledby="sound-title">
         <div class="section-inner split">
           <div class="section-head reveal">
-            <p class="eyebrow">Listen</p>
-            <h2 id="listen-title">Check the sound before you send the date.</h2>
-            <p>Fast proof for DJs, venues, and promoters who need to know the texture first.</p>
+            <p class="eyebrow">Sound · 音</p>
+            <h2 id="sound-title">Check the sound before you send the date.</h2>
+            <p>Two cuts that show the texture: chops that feel handled, drums that sit, low end that hits in a small room.</p>
+            <div class="eq" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
           </div>
 
           <div class="tracks reveal">
             <article>
-              <div><span>01</span><strong>Millions</strong></div>
+              <header>
+                <span class="track-num">01</span>
+                <div>
+                  <strong>Millions</strong>
+                  <p>Boom-bap · sample-led · 90 BPM</p>
+                </div>
+                <a href="https://soundcloud.com/isidormusic/millions" target="_blank" rel="noreferrer" aria-label="Open Millions on SoundCloud">↗</a>
+              </header>
               <iframe
                 title="Millions by ISIDOR on SoundCloud"
                 loading="lazy"
@@ -226,7 +261,14 @@
               </iframe>
             </article>
             <article>
-              <div><span>02</span><strong>trust</strong></div>
+              <header>
+                <span class="track-num">02</span>
+                <div>
+                  <strong>trust</strong>
+                  <p>Late-night · soul-cut · MC ready</p>
+                </div>
+                <a href="https://soundcloud.com/isidormusic/trust" target="_blank" rel="noreferrer" aria-label="Open trust on SoundCloud">↗</a>
+              </header>
               <iframe
                 title="trust by ISIDOR on SoundCloud"
                 loading="lazy"
@@ -234,6 +276,183 @@
                 src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/isidormusic/trust&color=%23c51620&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false">
               </iframe>
             </article>
+
+            <a class="tracks-more" href="https://soundcloud.com/isidormusic" target="_blank" rel="noreferrer">
+              <span>Full catalogue on SoundCloud</span>
+              <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="square"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section offers-section" id="offers" aria-labelledby="offers-title">
+        <div class="section-inner">
+          <div class="section-head narrow reveal">
+            <p class="eyebrow">Offers · 三つの形</p>
+            <h2 id="offers-title">Three clean offers promoters understand fast.</h2>
+            <p>Each format ships with a tech rider, set length range, and a one-line booking brief.</p>
+          </div>
+
+          <div class="offer-grid">
+            <article class="offer-card reveal">
+              <header>
+                <span>01</span>
+                <p class="card-kicker">Beat-Live Set</p>
+              </header>
+              <h3>Sampler-driven, performance-first.</h3>
+              <p>Chops, drum breaks, DJ transitions, and visible performance energy. Built for showcases and warmups that still need a story.</p>
+              <ul>
+                <li>Length · 25–45 min</li>
+                <li>Format · Sampler + decks</li>
+                <li>Best for · Beat showcases, openers</li>
+              </ul>
+              <a href="#book" class="card-cta">Brief this format →</a>
+            </article>
+
+            <article class="offer-card dark reveal">
+              <header>
+                <span>02</span>
+                <p class="card-kicker">DJ Support Slot</p>
+              </header>
+              <h3>Old-school hip-hop, vinyl texture.</h3>
+              <p>Warmup or late-night flow. Lo-fi soul, boom-bap, dusty grooves — built around the headliner, not against them.</p>
+              <ul>
+                <li>Length · 45–90 min</li>
+                <li>Format · Vinyl + digital hybrid</li>
+                <li>Best for · Headliner support, residency nights</li>
+              </ul>
+              <a href="#book" class="card-cta light">Brief this format →</a>
+            </article>
+
+            <article class="offer-card reveal">
+              <header>
+                <span>03</span>
+                <p class="card-kicker">Producer + MC Night</p>
+              </header>
+              <h3>Original beats with guest MCs.</h3>
+              <p>A full hip-hop event shape — original production, guest rappers, sampler interludes, and a curated DJ flow between cuts.</p>
+              <ul>
+                <li>Length · 60–90 min</li>
+                <li>Format · Live band-feel set</li>
+                <li>Best for · Brand nights, culture events</li>
+              </ul>
+              <a href="#book" class="card-cta">Brief this format →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section press-section" id="press" aria-labelledby="press-title">
+        <div class="section-inner">
+          <div class="section-head narrow reveal">
+            <p class="eyebrow">Press &amp; proof · 信頼</p>
+            <h2 id="press-title">Built on rooms, not algorithms.</h2>
+          </div>
+
+          <div class="press-grid">
+            <blockquote class="press-quote reveal">
+              <p>"Tight chops, room-aware, and a record bag that knows when to push and when to breathe."</p>
+              <cite>— Tokyo promoter, MINI LARIX vol.06</cite>
+            </blockquote>
+            <ul class="press-stats reveal" aria-label="Track record at a glance">
+              <li>
+                <strong>RA</strong>
+                <span>Listed event proof</span>
+              </li>
+              <li>
+                <strong>88block</strong>
+                <span>Recent Tokyo room</span>
+              </li>
+              <li>
+                <strong>2 sets / mo</strong>
+                <span>Average booking cadence</span>
+              </li>
+              <li>
+                <strong>JP / EN</strong>
+                <span>Comms with venues</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section vibe-section" aria-labelledby="vibe-title">
+        <div class="section-inner">
+          <div class="section-head narrow reveal">
+            <p class="eyebrow">The vibe · 雰囲気</p>
+            <h2 id="vibe-title">Black-and-white, gritty, easy to sell.</h2>
+          </div>
+
+          <div class="vibe-grid">
+            <article class="vibe-card large reveal">
+              <img src="./assets/images/party-vibe.webp" alt="Black and white sketch of a DJ crowd and turntables" loading="lazy">
+              <div>
+                <span>Venue energy</span>
+                <h3>Feels like a packed basement before it becomes one.</h3>
+              </div>
+            </article>
+            <article class="vibe-card reveal">
+              <img src="./assets/images/vinyl-store.webp" alt="Black and white record store crates" loading="lazy">
+              <div>
+                <span>Sound source</span>
+                <h3>Record-digger taste, not playlist filler.</h3>
+              </div>
+            </article>
+            <article class="vibe-card reveal">
+              <img src="./assets/images/vinyl-motion.webp" alt="Black and white close-up of a spinning vinyl record" loading="lazy">
+              <div>
+                <span>Identity</span>
+                <h3>Motion, scratches, pressure in the room.</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="section-inner split">
+          <div class="section-head reveal">
+            <p class="eyebrow">FAQ · よくある質問</p>
+            <h2 id="faq-title">Promoter answers, fast.</h2>
+            <p>The questions venues ask before they hold a date — answered in advance.</p>
+          </div>
+
+          <div class="faq-list reveal">
+            <details>
+              <summary>
+                <span>What's the standard tech rider?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </summary>
+              <p>Two CDJs (3000 / Nexus2 / Nexus3) and a DJM mixer is the baseline. Beat-live sets add a sampler and a stereo channel. Vinyl on request — needs two working turntables with sharp needles.</p>
+            </details>
+            <details>
+              <summary>
+                <span>How fast can a date be confirmed?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </summary>
+              <p>Inside Tokyo: a confirmed offer (date, fee, format, curfew) gets a yes / no inside 24 hours. Travel dates: 48–72h to coordinate logistics.</p>
+            </details>
+            <details>
+              <summary>
+                <span>Will you travel outside Tokyo?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </summary>
+              <p>Yes — Osaka, Kyoto, Yokohama, Nagoya all welcome. International routing handled for lineups with at least four weeks of notice.</p>
+            </details>
+            <details>
+              <summary>
+                <span>Set length flexibility?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </summary>
+              <p>Beat-live sets sit cleanest at 30 min. DJ support slots flex from 45 to 90 min, and a producer+MC night takes a full 60–90 min slot with the lineup planned.</p>
+            </details>
+            <details>
+              <summary>
+                <span>What does a clean booking note look like?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </summary>
+              <p>Venue, capacity, date, set length, fee or fee range, lineup, sound system, curfew. Use the form below — it copies a brief in that exact shape.</p>
+            </details>
           </div>
         </div>
       </section>
@@ -241,16 +460,15 @@
       <section class="section inquiry-section" id="book" aria-labelledby="book-title">
         <div class="section-inner split">
           <div class="book-copy reveal">
-            <p class="eyebrow">Booking inquiry</p>
+            <p class="eyebrow">Booking inquiry · 予約</p>
             <h2 id="book-title">Send one clean booking note.</h2>
-            <p>
-              The form copies a short brief. Paste it into Instagram or email with the venue, date, fee, and format already clear.
-            </p>
+            <p>The form copies a short brief. Paste it into Instagram or email with the venue, date, fee, and format already clear.</p>
             <div class="contact-links">
-              <a href="https://www.instagram.com/isidor.music/" target="_blank" rel="noreferrer">Instagram</a>
-              <a href="https://soundcloud.com/isidormusic" target="_blank" rel="noreferrer">SoundCloud</a>
-              <a href="https://ra.co/events/2424543" target="_blank" rel="noreferrer">RA proof</a>
+              <a href="https://www.instagram.com/isidor.music/" target="_blank" rel="noreferrer">Instagram ↗</a>
+              <a href="https://soundcloud.com/isidormusic" target="_blank" rel="noreferrer">SoundCloud ↗</a>
+              <a href="https://ra.co/events/2424543" target="_blank" rel="noreferrer">RA proof ↗</a>
             </div>
+            <p class="book-note"><strong>Tokyo / JST.</strong> Replies usually inside 24h.</p>
           </div>
 
           <form class="booking-form reveal" data-booking-form>
@@ -288,8 +506,11 @@
               <textarea name="notes" rows="5" placeholder="Set length, lineup, sound system, curfew, ticket price"></textarea>
             </label>
             <div class="form-actions">
-              <button class="button button-primary" type="submit">Copy booking brief</button>
-              <a class="button button-secondary" href="https://www.instagram.com/isidor.music/" target="_blank" rel="noreferrer">Open Instagram</a>
+              <button class="button button-primary" type="submit" data-magnetic>
+                <span>Copy booking brief</span>
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 1h7l3 3v11H5z M5 1v3h-3v10h7" stroke="currentColor" stroke-width="1.6" fill="none"/></svg>
+              </button>
+              <a class="button button-ghost" href="https://www.instagram.com/isidor.music/" target="_blank" rel="noreferrer">Open Instagram ↗</a>
             </div>
             <p class="form-status" data-form-status role="status" aria-live="polite"></p>
           </form>
@@ -297,16 +518,30 @@
       </section>
     </main>
 
-    <a class="mobile-sticky" href="#tickets">Dates / booking</a>
+    <a class="mobile-sticky" href="#book">
+      <span>Booking inquiry</span>
+      <span class="mobile-sticky-arrow" aria-hidden="true">→</span>
+    </a>
 
     <footer class="site-footer">
-      <div>
-        <strong>DJ Isidor</strong>
-        <p>Tokyo beat-live bookings, venues, tickets, old-school hip-hop, live pads, and DJ flow.</p>
+      <div class="footer-top">
+        <div>
+          <strong>DJ ISIDOR</strong>
+          <p>Tokyo hip-hop. Beat-live, DJ support, producer-MC nights. Old-school records, modern rooms.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#shows">Shows</a>
+          <a href="#sound">Sound</a>
+          <a href="#offers">Offers</a>
+          <a href="#book">Book</a>
+        </div>
       </div>
-      <p>(c) <span data-year></span> Isidor Music.</p>
+      <div class="footer-bottom">
+        <p>© <span data-year></span> Isidor Music · 東京</p>
+        <p>Site built for venues and promoters · Last update <span data-build></span></p>
+      </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
